@@ -97,7 +97,6 @@ const App = () => {
       </div>
       <nav>
         <div className="nav-container">
-          <img className="nav-logo" src="/img/logo.png" alt="" />
           <a className="hide-800" href="/#link1">
             Game Demo
           </a>
