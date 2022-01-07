@@ -67,7 +67,7 @@ const App = () => {
           </li>
           <li>
             <a href="/#link1" onClick={toggleMenu}>
-              Link 1
+              test
             </a>
           </li>
           <li>
@@ -100,16 +100,16 @@ const App = () => {
         <div className="nav-container">
           <img className="nav-logo" src="/img/logo.png" alt="" />
           <a className="hide-800" href="/#link1">
-            Link 1
+            Game Demo
           </a>
           <a className="hide-800" href="/#link2">
-            Link 2
+            Distribution
           </a>
           <a className="hide-800" href="/#link3">
-            Link 3
+            Roadmap
           </a>
           <a className="hide-800" href="/#link4">
-            Link 4
+            Community
           </a>
           <div className="social-icons hide-800">
             <img className="nav-social" src="/icons/twitter.svg" alt="" />
@@ -121,13 +121,9 @@ const App = () => {
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
-              <h1 className="pb-3">The Boiler Plate</h1>
+              <h1 className="pb-3">Risky Ape NFT Sale</h1>
               <p className="text-secondary-color">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                scelerisque ipsum non est porta mollis. Donec sapien sapien, dictum
-                eget enim sed, hendrerit semper orci. Donec ante magna, consequat at
-                eros ac, eleifend dictum sem. Nam vitae condimentum lorem.
-                Vestibulum molestie dui turpis, tincidunt porta sem congue nec.
+                500 Risky Apes. Each ape certifies your shareholding of fees generated through the Risky Ape game.
               </p>
             </div>
             <div>
@@ -151,62 +147,6 @@ const App = () => {
               </ThemeProvider>
             </div>
           </header>
-
-          <div id="link2" className="container">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-            aliquet, semper sapien sed, ornare augue. Phasellus sed velit interdum,
-            sagittis metus quis, facilisis lectus. Cras sollicitudin purus at magna
-            eleifend maximus. Nulla nec nulla in nunc maximus viverra in at mauris.
-            Fusce sodales dolor nisi, et vehicula orci porta id. In placerat nunc
-            sed erat lacinia tincidunt. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Vestibulum commodo eget metus vitae tempus. Aliquam
-            pharetra mi at efficitur accumsan. Curabitur venenatis libero a ex
-            porttitor, at auctor turpis hendrerit. Nam commodo, risus non consequat
-            pretium, erat ante auctor purus, a cursus dolor erat at velit. Maecenas
-            dignissim, dolor sed laoreet aliquam, tortor lacus faucibus urna, eget
-            mattis massa sem ac dui. Nam semper hendrerit interdum. Etiam at dictum
-            nisi.
-          </div>
-
-          <div id="link3" className="container card">
-            <h1 className="pb-3">Lorem ipsum</h1>
-          </div>
-
-          <div id="link4" className="container faq">
-            <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
-            </div>
-
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
-            </div>
-
-            <div>
-              <h4>Lorem ipsum?</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
-              </p>
-
-              <hr />
-            </div>
-          </div>
       </div>
     </div>
   );

@@ -52,7 +52,7 @@ export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
   title: "Welcome!",
-  desc: "Connect your wallet and load in! Whitelist mint starts soon!",
+  desc: "Connect your wallet and load in!",
 
   // Countdown Timer
   countdownEnable: false,
@@ -99,8 +99,8 @@ export const whitelistSettings: WhitelistSettings = {
   //If you want to use the whitelist feature enable it.
   enabled: true,
 
-  startDate: date("1 Jan 2022 00:00:00 GMT"),
-  endDate: date("8 Jan 2022 00:00:00 GMT"),
+  startDate: date("7 Jan 2022 17:55:00 GMT"),
+  endDate: date("7 Jan 2022 18:00:00 GMT"),
   countdown: true,
   //Example date below
   // date('29 2021 00:00:00 GMT')
@@ -146,7 +146,7 @@ export const publicSaleSettings: PublicSaleSettings = {
 
   //Title and Description
   title: "Public Sale",
-  desc: "Sale is now live. Mint your NFT below",
+  desc: "Mint your NFT below",
 
   //Enable Custom HTML
   enableCustomHTML: false,
